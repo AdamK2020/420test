@@ -1,0 +1,89 @@
+@charset "utf-8";
+/*
+   Sample start files #2 is a 2-column fixed layout provided in CMIS 410
+   For educational purposes only
+  Name: Adam
+	Date: 2/22/2026
+*/
+
+*	{ padding: 0; 
+		margin: 0;
+}
+
+
+body { 
+		font-size: 1.1em; 
+		font-family: Arial, Helvetica, sans-serif; 
+		background-color: #fff7ef;
+}
+
+
+#container { 
+				width: 960px; 
+				border-width: 1px; 
+				margin: 0 auto; 
+				background-color: #ffffff;
+				border: 1px solid #f2c94c;
+}
+
+
+#header { 
+			width: 910px; 
+			margin: 0 0 10px 0; 
+			padding: 10px; 
+			background-color: #f7b6c8; 
+			height: 220px;
+}
+
+#header img {
+	display: block;
+	margin: 0 auto;
+	max-height: 200px;
+}
+
+#navbar { 
+			width: 910px; 
+			margin: 0 0 10px 0; 
+			padding: 10px; 
+			background-color: #d97706; 
+			height: 25px;
+			text-align: center;
+}
+
+#navbar a:hover{
+	text-decoration: underline;
+}
+
+
+#sidebar {
+			width: 200px; 
+			margin: 0 10px 10px 0; 
+			padding: 10px; 
+			background-color: #fde2e4; 
+			float: left; 
+			height: 400px;
+}
+
+
+#main { 
+		width: 680px; 
+		margin: 0 0 10px 0; 
+		padding: 10px; 
+		background-color: #ffffff;
+		float: right; 
+		height: 400px;
+}
+
+
+#footer { 
+			width: 910px; 
+			padding: 10px; 
+			background-color: #d97706;
+			clear: both; 
+			height: 90px;
+			text-align: center;
+}
+
+#footer a:hover{
+	text-decoration: underline;
+}
