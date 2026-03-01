@@ -236,15 +236,14 @@ body.reviews-page .reviewer{
 }
 
 body.reviews-page .video-section{
-	margin-top: 30px;
+	width: 100%;
 	text-align: center;
 	clear: both;
 }
 
 body.reviews-page .video-section h2{
-	margin-bottom: 15px;
 	white-space: nowrap;
-	font-size: 1.3em;
+	font-size: 1.2em;
 }
 
 body.reviews-page .video-section iframe{
