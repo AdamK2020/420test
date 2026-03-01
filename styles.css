@@ -242,6 +242,7 @@ body.reviews-page .video-section{
 
 body.reviews-page .video-section h2{
 	margin-bottom: 15px;
+	white-space: nowrap;
 }
 
 body.reviews-page .video-section iframe{
