@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Daisy's Donut Shop</title>
+ <meta charset="utf-8" />   
+ <meta name="viewport" content="width=device-width, initial-scale=1"/>
+   <link href="styles.css" rel="stylesheet" >
+
+<!--
+Provided 2 column fixed layout in CMIS 410 - for educational purposes only
+Your Name: Adam
+Today's Date: 3/3/2026
+
+-->
+</head>
+<body>
+<div id="container">
+	<div id="header">
+		<a href="index.html">
+		<img src="images/DaisysLogo.png" alt="Daisy's Donut Shop Logo" >
+		</a>
+	</div> <!-- header ends here -->
+	
+	<div id="navbar"> 
+	 <ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="menu.html">Menu</a></li>
+		<li><a href="reviews.html">Reviews</a></li>
+		<li><a href="contact.html">Contact</a></li>
+	</ul> 
+	</div> <!-- navbar ends here -->
+	
+	<div id="sidebar"> 
+		 <h3>Hours</h3>
+		 <p>
+			Mon-Fri: 6am-2pm<br>
+			Sat: 7 am - 1pm<br>
+			Sun: Closed
+		</p>
+		<h3>Locations</h3>
+		<p>123 Sweet Street<br>
+		 Omaha, NE</p>
+		 
+		<h3>Follow Us</h3>
+		<p>
+			<a href="https://www.facebook.com" target="_blank">Facebook</a><br>
+			<a href="https://www.instagram.com" target="_blank">Instagram</a>
+		</p>
+		
+		<h3>Directions</h3>
+		<p>
+			<a href="https://google.com/maps" target="_blank">
+					View on Google maps </a>
+		</p>
+		</div>
+		
+	 <!-- sidebar column ends here -->
+	<div id="contact-form"> 
+		 <h1>Contact Us</h1>
+		<p>Have a question or want to place a custom order? Send us a message!
+		</p>
+			<fieldset>
+	
+			<div class="name-row">
+			  <div class="form-group">
+				<label for="firstname">First Name *</label>
+				<input type="text" id="firstname" name="firstname" required>
+			  </div>
+			  
+			  <div class="form-group">
+			  <label for="lastname">Last Name *</label>
+			  <input type="text" id="lastname" name="lastname" required>
+			 </div>
+			</div>
+			
+			<div class="form-group">
+			   <label for="email">Email *</label>
+			   <input type="email" id="email" name="email" required>
+			</div>
+			
+			<div class="form-group">
+			    <label for="phone">Phone</label>
+				<input type="tel" id="phone" name="phone" placeholder="(402)555-1234">
+			 </div>
+			 
+			<div class="form-group">
+				<label for="subject">Subject *</label>
+				<select id="subject" name="subject" required>
+					<option value="" disabled selected>Choose one</option>
+					<option value="custome-order">Custom donut order</option>
+					<option value="catering">Catering/large order</option>
+					<option value="hours-location">Hours/location</option>
+					<option value="feedback">Feedback</option>
+					<option value="other">Other</option>
+				</select>
+			</div>
+			
+			<div class="form-group">
+				<label for="message">Message *</label>
+				<textarea id="message" name="message" rows="6" required></textarea>
+			</div>
+			
+			
+			<div class="form-group">
+				<label>
+				<input type="checkbox" name="newsletter" value="yes">
+				Send me seasonal specials and coupons
+				</label>
+			</div>
+			
+			<div class="form-actions">
+				<button type="submit">Send Message</button>
+				<button type="reset">Clear</button>
+			</div>
+			
+			</fieldset>
+	   
+		</div> <!-- main column ends here -->
+	<div id="footer"> 
+		<p>
+		    <a href="tel:14025551234"> (402) 555-1234</a>
+			<span class="divider">&#9830;</span>
+			<span class="business-name">Daisy's Donut Shop</span>
+			<span class="divider">&#9830;</span>
+			<a href="mailto:info@daisysdonutshop.com">info@daisysdonutshop.com</a>
+		</p>
+		
+	</div> <!-- footer ends here -->
+
+</div> <!-- container ends here -->
+
+
+
+</body>
+</html>
+
+
+
